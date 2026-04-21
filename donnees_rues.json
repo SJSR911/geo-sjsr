@@ -1,0 +1,6494 @@
+[
+  {
+    "nom": "Chemin du Clocher",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3207022,
+    "info": ""
+  },
+  {
+    "nom": "Rue Brisebois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3129405,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gisèle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3118691,
+    "info": ""
+  },
+  {
+    "nom": "Chemin Évangéline",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.328314,
+    "info": ""
+  },
+  {
+    "nom": "Rue Yvonne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.313728,
+    "info": ""
+  },
+  {
+    "nom": "Rue Normandin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3404138,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Oliviers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3298043,
+    "info": ""
+  },
+  {
+    "nom": "Place des Oliviers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3290742,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Blés-d'Or",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3311651,
+    "info": ""
+  },
+  {
+    "nom": "Chemin des Vieux-Moulins",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3035426,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Jacques",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3062363,
+    "info": ""
+  },
+  {
+    "nom": "Rue Principale",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2435021,
+    "info": ""
+  },
+  {
+    "nom": "Chemin du Ruisseau-des-Noyers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3364101,
+    "info": ""
+  },
+  {
+    "nom": "Chemin des Frênes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3265011,
+    "info": ""
+  },
+  {
+    "nom": "Chemin de la Coulée-des-Pères",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3294707,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Forges",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.314378,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Acadiens",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3145521,
+    "info": ""
+  },
+  {
+    "nom": "Rue Desranleau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3146198,
+    "info": ""
+  },
+  {
+    "nom": "Rue Châteauneuf",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.316318,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Brault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3160843,
+    "info": ""
+  },
+  {
+    "nom": "Rue Deland",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3158444,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dicaire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3076066,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Moissons",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3062965,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jacques-Cartier Nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3064072,
+    "info": ""
+  },
+  {
+    "nom": "Chemin des Patriotes Ouest",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2863573,
+    "info": ""
+  },
+  {
+    "nom": "Rue Vanier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2944392,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jacques-Cartier Sud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2717457,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Carillon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2746475,
+    "info": ""
+  },
+  {
+    "nom": "Montée de l'Érablière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.251632,
+    "info": ""
+  },
+  {
+    "nom": "Chemin du Petit-Bernier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2766894,
+    "info": ""
+  },
+  {
+    "nom": "Chemin des Ormes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2801187,
+    "info": ""
+  },
+  {
+    "nom": "Rue Grandes Terrasses",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2941665,
+    "info": ""
+  },
+  {
+    "nom": "Grandes Terrasses",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2940761,
+    "info": ""
+  },
+  {
+    "nom": "Montée Roy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.25819,
+    "info": ""
+  },
+  {
+    "nom": "Chemin de Valrennes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3814589,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Roches",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3883712,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Courcelles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.4009958,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard du Séminaire Sud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2920815,
+    "info": ""
+  },
+  {
+    "nom": "Route 223",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.216286,
+    "info": ""
+  },
+  {
+    "nom": "Chemin des Patriotes Est",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3265599,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Conrad-Gosselin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3248761,
+    "info": ""
+  },
+  {
+    "nom": "Chemin du Grand-Pré",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3454435,
+    "info": ""
+  },
+  {
+    "nom": "Chemin de la Bataille",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.4019686,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Trembles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3808411,
+    "info": ""
+  },
+  {
+    "nom": "Rue Félix-Leclerc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.376154,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Tilleuls",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3716761,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cheverie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3546639,
+    "info": ""
+  },
+  {
+    "nom": "Rue Boire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3174417,
+    "info": ""
+  },
+  {
+    "nom": "Rue Boutin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3182568,
+    "info": ""
+  },
+  {
+    "nom": "Rue Fournier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3182352,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dumouchel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3200282,
+    "info": ""
+  },
+  {
+    "nom": "Rue Madeleine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3196486,
+    "info": ""
+  },
+  {
+    "nom": "Rue Surprenant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3192828,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Biat",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3207967,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Vétérans",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3180334,
+    "info": ""
+  },
+  {
+    "nom": "Rue Matton",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3128921,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Canadienne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3097815,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Québécoise",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.309022,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Merle-Bleu",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3085645,
+    "info": ""
+  },
+  {
+    "nom": "Allée des Cigales",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3070403,
+    "info": ""
+  },
+  {
+    "nom": "Place Perreault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3094023,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bernier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3518483,
+    "info": ""
+  },
+  {
+    "nom": "Route 104",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3127628,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gamache",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3141003,
+    "info": ""
+  },
+  {
+    "nom": "Rue Monique",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2769766,
+    "info": ""
+  },
+  {
+    "nom": "Rue Forget",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2757563,
+    "info": ""
+  },
+  {
+    "nom": "Rue Boisclair",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2760646,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jeannette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2770409,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chamfort",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2765902,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Princesse-Caroline",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2818271,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Patrice",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2842055,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-André",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2860332,
+    "info": ""
+  },
+  {
+    "nom": "Rue Guy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.281318,
+    "info": ""
+  },
+  {
+    "nom": "Rue Luc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2818623,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Vimy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2892624,
+    "info": ""
+  },
+  {
+    "nom": "Rue Tougas",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2963907,
+    "info": ""
+  },
+  {
+    "nom": "Rue Germain",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2982862,
+    "info": ""
+  },
+  {
+    "nom": "3e Rang",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3151899,
+    "info": ""
+  },
+  {
+    "nom": "1re Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3052699,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Fredière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3180138,
+    "info": ""
+  },
+  {
+    "nom": "Rue Julien-Beaudriau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3190209,
+    "info": ""
+  },
+  {
+    "nom": "Rue La Durantaye",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3195199,
+    "info": ""
+  },
+  {
+    "nom": "Rue Grandfontaine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3201214,
+    "info": ""
+  },
+  {
+    "nom": "17e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.317515,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Thuot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3191535,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Fouille",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3194838,
+    "info": ""
+  },
+  {
+    "nom": "Rue Arcand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3180033,
+    "info": ""
+  },
+  {
+    "nom": "Rue Adrien-Fontaine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3191416,
+    "info": ""
+  },
+  {
+    "nom": "Rue Damase-Carreau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3188682,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Bleury",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3187468,
+    "info": ""
+  },
+  {
+    "nom": "Rue Léonard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3134786,
+    "info": ""
+  },
+  {
+    "nom": "Rue Paul-De Maurel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3135821,
+    "info": ""
+  },
+  {
+    "nom": "Rue Anatole-Touchette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3157269,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Neiges",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3154318,
+    "info": ""
+  },
+  {
+    "nom": "11e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3135349,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Gagnon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3127615,
+    "info": ""
+  },
+  {
+    "nom": "16e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3167889,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Croisetière Nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3131504,
+    "info": ""
+  },
+  {
+    "nom": "Rue Paul-Laplante",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3422517,
+    "info": ""
+  },
+  {
+    "nom": "Rue David-Page",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3419095,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bourassa",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3440081,
+    "info": ""
+  },
+  {
+    "nom": "Rue Moreau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3352189,
+    "info": ""
+  },
+  {
+    "nom": "Rue Berthelot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3370368,
+    "info": ""
+  },
+  {
+    "nom": "Carré Girouard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3422499,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jean-Melançon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3388434,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Nolin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3350566,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jean-Baptiste",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3405649,
+    "info": ""
+  },
+  {
+    "nom": "Rue Philibert-Gibault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3377413,
+    "info": ""
+  },
+  {
+    "nom": "Rue Nicolas-Letartre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3378108,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Brosseau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3425289,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Floquet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3422458,
+    "info": ""
+  },
+  {
+    "nom": "Rue Honoré-Laure",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3337063,
+    "info": ""
+  },
+  {
+    "nom": "Rue Henri-Morin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.335026,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joseph-Vandal",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3384974,
+    "info": ""
+  },
+  {
+    "nom": "Rue Michel-Quintal",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.339789,
+    "info": ""
+  },
+  {
+    "nom": "Rue Hermas-Lachapelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3361015,
+    "info": ""
+  },
+  {
+    "nom": "Rue Godfroy-Gendreau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3366655,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joseph-Charles-Coallier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3344156,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rita",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3443968,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Artisans",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3457851,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Ancêtres",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3461441,
+    "info": ""
+  },
+  {
+    "nom": "Rue Clouâtre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3390062,
+    "info": ""
+  },
+  {
+    "nom": "Rue François-D'Alpé",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3385617,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Cusson",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3375438,
+    "info": ""
+  },
+  {
+    "nom": "Rue Antoine-Quiriac",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.339707,
+    "info": ""
+  },
+  {
+    "nom": "Rue Many",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3394296,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-Babin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3402245,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cyrille-Côté",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.337255,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jauniaux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3473956,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Radisson",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3466706,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Omer-Marcil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3333758,
+    "info": ""
+  },
+  {
+    "nom": "Croissant de la Tramontane",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3597983,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bourget",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3482416,
+    "info": ""
+  },
+  {
+    "nom": "Rue France",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3542023,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Orge",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3460843,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Tournesols",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3474575,
+    "info": ""
+  },
+  {
+    "nom": "Rue Deschambault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3453901,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Centre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3458225,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Blé",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3463285,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Plaines",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3465736,
+    "info": ""
+  },
+  {
+    "nom": "Rue Geneviève",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3577961,
+    "info": ""
+  },
+  {
+    "nom": "Rue Germaine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3587975,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Zéphyr",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3622919,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Nordet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3614199,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Blizzard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3607837,
+    "info": ""
+  },
+  {
+    "nom": "Rue Éole",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3598848,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bélair",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3614861,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Genévriers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.35675,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Bois-Francs",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3556074,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Cèdres",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3559521,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Épinettes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3548514,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Merisiers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3543637,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Sapins",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3533149,
+    "info": ""
+  },
+  {
+    "nom": "Rue de La Sarre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3539105,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Mélèzes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3539611,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mansart",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3526318,
+    "info": ""
+  },
+  {
+    "nom": "Rue Paré",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.352683,
+    "info": ""
+  },
+  {
+    "nom": "Rue Papineau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3516239,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Castel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3500722,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Château",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3500124,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marie-Antoinette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3507606,
+    "info": ""
+  },
+  {
+    "nom": "Rue Masson",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3508108,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-XV",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3509135,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Amarante",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3498262,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sainte-Lucie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3470965,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dépelteau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3447392,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chantal",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.344377,
+    "info": ""
+  },
+  {
+    "nom": "Rue Théodore-Péladeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3443754,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lefort",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2921184,
+    "info": ""
+  },
+  {
+    "nom": "Rue Denicourt",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2909758,
+    "info": ""
+  },
+  {
+    "nom": "Rue Émile-Bouchard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2916343,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ginette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2916415,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2916489,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Saint-Ours",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2916642,
+    "info": ""
+  },
+  {
+    "nom": "Rue Parent",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2916803,
+    "info": ""
+  },
+  {
+    "nom": "Rue Monat",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2916564,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Rodolphe-Fournier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2944492,
+    "info": ""
+  },
+  {
+    "nom": "Rue Henri-Laflamme",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2949515,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Landry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2962205,
+    "info": ""
+  },
+  {
+    "nom": "Rue Nadeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2950467,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Saint-Luc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3490416,
+    "info": ""
+  },
+  {
+    "nom": "Autoroute de la Vallée-des-Forts",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3127534,
+    "info": ""
+  },
+  {
+    "nom": "Rue Frontenac",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3029134,
+    "info": ""
+  },
+  {
+    "nom": "Rue Vaudreuil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3026137,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Gouin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3037954,
+    "info": ""
+  },
+  {
+    "nom": "Rue Laurier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3021258,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Royal-22e-Regiment",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3029237,
+    "info": ""
+  },
+  {
+    "nom": "Rue La Fontaine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3029702,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard d'Iberville",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3132703,
+    "info": ""
+  },
+  {
+    "nom": "Chemin Saint-André",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3774023,
+    "info": ""
+  },
+  {
+    "nom": "Rang Saint-Joseph",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3955371,
+    "info": ""
+  },
+  {
+    "nom": "Chemin Saint-Raphaël",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3928707,
+    "info": ""
+  },
+  {
+    "nom": "Rue Albert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3510976,
+    "info": ""
+  },
+  {
+    "nom": "Pont Félix-Gabriel-Marchand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3267696,
+    "info": ""
+  },
+  {
+    "nom": "Chemin Sainte-Thérèse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3824889,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jean-Talon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3820561,
+    "info": ""
+  },
+  {
+    "nom": "Avenue du Parc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3781799,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Fleur-de-Lys",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3729844,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Laurent",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3217868,
+    "info": ""
+  },
+  {
+    "nom": "Rue de La Rochelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3215939,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard de Normandie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3253813,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lebeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3198178,
+    "info": ""
+  },
+  {
+    "nom": "Rue Raymond",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3175871,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Michel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3151907,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dorchester",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3201325,
+    "info": ""
+  },
+  {
+    "nom": "Rue Maisonneuve",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3229117,
+    "info": ""
+  },
+  {
+    "nom": "Rue Georges-Phaneuf",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.320556,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Dieppe",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3156551,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierce",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3172753,
+    "info": ""
+  },
+  {
+    "nom": "Rue Baldwin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.319406,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lévis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3160493,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jean-De Brébeuf",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3190604,
+    "info": ""
+  },
+  {
+    "nom": "Rue Latour",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3183763,
+    "info": ""
+  },
+  {
+    "nom": "Rue Monseigneur-Laval",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3213346,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bellefleur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3190742,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sainte-Marie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3217376,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Neuve-France",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3232002,
+    "info": ""
+  },
+  {
+    "nom": "Montée de la Cannerie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.243464,
+    "info": ""
+  },
+  {
+    "nom": "Rue Champlain",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3343981,
+    "info": ""
+  },
+  {
+    "nom": "Rue Monseigneur-Forget",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.324657,
+    "info": ""
+  },
+  {
+    "nom": "Rue Desmarais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3243249,
+    "info": ""
+  },
+  {
+    "nom": "Rue Demers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3253285,
+    "info": ""
+  },
+  {
+    "nom": "Rue Monet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3250062,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gaulin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3256691,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lasnier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3246056,
+    "info": ""
+  },
+  {
+    "nom": "Rue d'Auteuil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3238827,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mott",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3239612,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Curé-Lamarche",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3171556,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Hubert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3176341,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Denis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3159762,
+    "info": ""
+  },
+  {
+    "nom": "Rue Morais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3168549,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Louis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3128543,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gaudette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3191667,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marie-Rollet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3236964,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jeanne-Mance",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3244118,
+    "info": ""
+  },
+  {
+    "nom": "Rue Savoy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3242987,
+    "info": ""
+  },
+  {
+    "nom": "Rue Messier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3236208,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sabourin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3251182,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lomme",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3236629,
+    "info": ""
+  },
+  {
+    "nom": "Rue Granger",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3249785,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rhéaume",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.326687,
+    "info": ""
+  },
+  {
+    "nom": "Rue Boucher",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3283278,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rossiter",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3246718,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cloutier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3245092,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jourdonnais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3218023,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bourgeois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3206494,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bisaillon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3203069,
+    "info": ""
+  },
+  {
+    "nom": "Rue Arpin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3207254,
+    "info": ""
+  },
+  {
+    "nom": "Rue Trotter",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3241165,
+    "info": ""
+  },
+  {
+    "nom": "Piste du Canal de Chambly",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3381222,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Saint-Joseph",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3144049,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marie-Elizabeth",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3136061,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Paul",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3112354,
+    "info": ""
+  },
+  {
+    "nom": "Rue Notre-Dame",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3182775,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mercier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3155757,
+    "info": ""
+  },
+  {
+    "nom": "Rue Labrèche",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3163574,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Henri",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3167764,
+    "info": ""
+  },
+  {
+    "nom": "Rue Grégoire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3155718,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Salaberry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3160236,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Charles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.307727,
+    "info": ""
+  },
+  {
+    "nom": "Rue Foch",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3092393,
+    "info": ""
+  },
+  {
+    "nom": "Rue Martin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.241049,
+    "info": ""
+  },
+  {
+    "nom": "Rue Vaughan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2366562,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sheridan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2345502,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bourne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.234915,
+    "info": ""
+  },
+  {
+    "nom": "Rue Macrae",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2377364,
+    "info": ""
+  },
+  {
+    "nom": "Rue Renaud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2383129,
+    "info": ""
+  },
+  {
+    "nom": "Rue Picard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2386282,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lessard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2381959,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gaudreau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2390767,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dubois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2371694,
+    "info": ""
+  },
+  {
+    "nom": "Rue Horace",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2404839,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mombleau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2395028,
+    "info": ""
+  },
+  {
+    "nom": "Rue Poulin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2393449,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jobson",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2399894,
+    "info": ""
+  },
+  {
+    "nom": "Rue Tugault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2400286,
+    "info": ""
+  },
+  {
+    "nom": "Rue Montgomerie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2442874,
+    "info": ""
+  },
+  {
+    "nom": "Rue Royale",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2431213,
+    "info": ""
+  },
+  {
+    "nom": "Rue Wilfrid-Charbonneau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2446425,
+    "info": ""
+  },
+  {
+    "nom": "3e Rang Nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3515508,
+    "info": ""
+  },
+  {
+    "nom": "Rang Saint-Édouard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.348279,
+    "info": ""
+  },
+  {
+    "nom": "Rang des Cinquante-Quatre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3576231,
+    "info": ""
+  },
+  {
+    "nom": "Rue Théroux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2642176,
+    "info": ""
+  },
+  {
+    "nom": "Montée Brien",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2610057,
+    "info": ""
+  },
+  {
+    "nom": "7e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3081445,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lucien-Beaudin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3053517,
+    "info": ""
+  },
+  {
+    "nom": "Rue James-Brodie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3065783,
+    "info": ""
+  },
+  {
+    "nom": "Rue Alain",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2776415,
+    "info": ""
+  },
+  {
+    "nom": "Rue Kelly",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2731681,
+    "info": ""
+  },
+  {
+    "nom": "Rue Paquin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2750521,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joseph-Albert-Morin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2652636,
+    "info": ""
+  },
+  {
+    "nom": "Rue Phaneuf",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2666237,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Foucault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2742978,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dupont",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2702322,
+    "info": ""
+  },
+  {
+    "nom": "Rue Paquette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2659123,
+    "info": ""
+  },
+  {
+    "nom": "Rue Romuald-Rémillard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2673704,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jean-Guy-Dufort",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.265941,
+    "info": ""
+  },
+  {
+    "nom": "Rue Petit",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2681062,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bissonnette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.271892,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bellerive",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2815648,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Chênes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2713926,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Bottine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2795786,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Bouleaux-Blancs",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2791101,
+    "info": ""
+  },
+  {
+    "nom": "Rue Du Prat",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2754642,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Aulnes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2798722,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Cerisiers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2783435,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Noyan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2771948,
+    "info": ""
+  },
+  {
+    "nom": "Rue Genest",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2761818,
+    "info": ""
+  },
+  {
+    "nom": "Rue Reid",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2803753,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rougemont",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2806171,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mignonne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.284238,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dubuc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2663488,
+    "info": ""
+  },
+  {
+    "nom": "Rue Vivier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2772825,
+    "info": ""
+  },
+  {
+    "nom": "Rue Oligny",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2760433,
+    "info": ""
+  },
+  {
+    "nom": "Avenue des Conseillers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3051358,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Beauregard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2984291,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Hamel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2970059,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Courtemanche",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2991413,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Leclerc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3006558,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dugué",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2870016,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mayer",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.28949,
+    "info": ""
+  },
+  {
+    "nom": "Rue Roger-Gervais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2874341,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Roger-Deslauriers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2956027,
+    "info": ""
+  },
+  {
+    "nom": "2e Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2994822,
+    "info": ""
+  },
+  {
+    "nom": "Rue Tassé",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2994386,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Héroux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2998164,
+    "info": ""
+  },
+  {
+    "nom": "Rue Charles-Laberge",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2985565,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Charland",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2982124,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Bessette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2976548,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Lorrain",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2984802,
+    "info": ""
+  },
+  {
+    "nom": "Avenue du Docteur-Chevalier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2997822,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Goyette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3002424,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard des Érables",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3010771,
+    "info": ""
+  },
+  {
+    "nom": "Rue Honoré-Mercier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3003732,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cormier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3007908,
+    "info": ""
+  },
+  {
+    "nom": "Rue Vincelette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2998223,
+    "info": ""
+  },
+  {
+    "nom": "3e Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3055104,
+    "info": ""
+  },
+  {
+    "nom": "1re Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3030396,
+    "info": ""
+  },
+  {
+    "nom": "Rue Maria-Boivin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.303286,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Curé-Saint-Georges",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3031751,
+    "info": ""
+  },
+  {
+    "nom": "6e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3072651,
+    "info": ""
+  },
+  {
+    "nom": "4e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3053034,
+    "info": ""
+  },
+  {
+    "nom": "2e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3042004,
+    "info": ""
+  },
+  {
+    "nom": "4e Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3052635,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lavoie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2957903,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Loupret",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3019596,
+    "info": ""
+  },
+  {
+    "nom": "Rue François",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3002719,
+    "info": ""
+  },
+  {
+    "nom": "Rue Samuel-De Champlain",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3002918,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Provost",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3021813,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jean-Guy-Lalanne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3058008,
+    "info": ""
+  },
+  {
+    "nom": "Rue Richard-Dubreuil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3026387,
+    "info": ""
+  },
+  {
+    "nom": "Rue Régnier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3159792,
+    "info": ""
+  },
+  {
+    "nom": "12e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3143694,
+    "info": ""
+  },
+  {
+    "nom": "14e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3151711,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rolland",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3260585,
+    "info": ""
+  },
+  {
+    "nom": "Rue Riendeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3131325,
+    "info": ""
+  },
+  {
+    "nom": "Rue McGinnis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3146243,
+    "info": ""
+  },
+  {
+    "nom": "15e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3158454,
+    "info": ""
+  },
+  {
+    "nom": "8e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3093451,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bella",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3148913,
+    "info": ""
+  },
+  {
+    "nom": "10e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3116938,
+    "info": ""
+  },
+  {
+    "nom": "Rue Champagnat",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3146905,
+    "info": ""
+  },
+  {
+    "nom": "13e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3143178,
+    "info": ""
+  },
+  {
+    "nom": "Rue Thuot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3144699,
+    "info": ""
+  },
+  {
+    "nom": "Rue Caisse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3171416,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marguerite",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3229061,
+    "info": ""
+  },
+  {
+    "nom": "Rue Guertin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3232716,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Chambellé",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3291672,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Hectorine-Prairie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3082541,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Beaujour",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3152176,
+    "info": ""
+  },
+  {
+    "nom": "Rue Croisetière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3124776,
+    "info": ""
+  },
+  {
+    "nom": "Rue René",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3419862,
+    "info": ""
+  },
+  {
+    "nom": "Rue Blanche",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3305946,
+    "info": ""
+  },
+  {
+    "nom": "Rue Charles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3306757,
+    "info": ""
+  },
+  {
+    "nom": "Rue Oliva",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3298781,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bellevue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3339377,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gaétan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3349896,
+    "info": ""
+  },
+  {
+    "nom": "Rue Carmen",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3333226,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jacqueline",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.347001,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dagenais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3480851,
+    "info": ""
+  },
+  {
+    "nom": "Rue Leduc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3480901,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mario",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3469829,
+    "info": ""
+  },
+  {
+    "nom": "Rue Arthur-Chagnon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3026085,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Beloeil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3084195,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Paix",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3174495,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Ruisseau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3170975,
+    "info": ""
+  },
+  {
+    "nom": "Rue Guillet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3095365,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joyce",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3605997,
+    "info": ""
+  },
+  {
+    "nom": "Rue de La Noraye",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3629544,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Contrecoeur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3607428,
+    "info": ""
+  },
+  {
+    "nom": "Rue Hector",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3616735,
+    "info": ""
+  },
+  {
+    "nom": "Rue Denis-Doody",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3611265,
+    "info": ""
+  },
+  {
+    "nom": "Rue Quintin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.354641,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dasylmar",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3775909,
+    "info": ""
+  },
+  {
+    "nom": "Rang de la Savane",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3947516,
+    "info": ""
+  },
+  {
+    "nom": "Rue Claude",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3045716,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jacques-Therrien",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3078326,
+    "info": ""
+  },
+  {
+    "nom": "Rue Adélard-Duquette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3073902,
+    "info": ""
+  },
+  {
+    "nom": "Rue Méthé",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.296368,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gérard-L'Écuyer",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2963657,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bergeron",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2957708,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Nacelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2941055,
+    "info": ""
+  },
+  {
+    "nom": "Rue Michaud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2970424,
+    "info": ""
+  },
+  {
+    "nom": "Rue Roger",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3215663,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Curé-Corriveau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3214569,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lapointe",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3165111,
+    "info": ""
+  },
+  {
+    "nom": "Rue Garand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2553055,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bossuet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.258982,
+    "info": ""
+  },
+  {
+    "nom": "Rue Maguire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2545375,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lemaire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2552092,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Léry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.307451,
+    "info": ""
+  },
+  {
+    "nom": "Rue Panet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3078712,
+    "info": ""
+  },
+  {
+    "nom": "Rue Caldwell",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3068522,
+    "info": ""
+  },
+  {
+    "nom": "Rue Langlois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3076911,
+    "info": ""
+  },
+  {
+    "nom": "Rue Nolin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.307887,
+    "info": ""
+  },
+  {
+    "nom": "Rue Morel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.307907,
+    "info": ""
+  },
+  {
+    "nom": "Rue Longueuil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3069234,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard du Séminaire Nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3003342,
+    "info": ""
+  },
+  {
+    "nom": "Rue Richelieu",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3024934,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Lorimier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2854537,
+    "info": ""
+  },
+  {
+    "nom": "Rue Harris",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2854302,
+    "info": ""
+  },
+  {
+    "nom": "Rue Desautels",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2715832,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bégin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.272101,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Antoine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2763198,
+    "info": ""
+  },
+  {
+    "nom": "Rue Therrien",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2795988,
+    "info": ""
+  },
+  {
+    "nom": "Rue Towner",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2880562,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Liège",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2873613,
+    "info": ""
+  },
+  {
+    "nom": "Rue O'Cain",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2857857,
+    "info": ""
+  },
+  {
+    "nom": "Rue Veilleux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2839746,
+    "info": ""
+  },
+  {
+    "nom": "Rue Baraby",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2830574,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Coulomb",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2819183,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Carignan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2905305,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Germain",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2998115,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Chantilly",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2739263,
+    "info": ""
+  },
+  {
+    "nom": "Rue D'Argenson",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2742811,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Versailles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2739164,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Verchères",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2738958,
+    "info": ""
+  },
+  {
+    "nom": "Rue Poutré",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.272339,
+    "info": ""
+  },
+  {
+    "nom": "Rue Perron",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2738468,
+    "info": ""
+  },
+  {
+    "nom": "Rue Isaïe-Lemieux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2848793,
+    "info": ""
+  },
+  {
+    "nom": "Rue Favreau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2738179,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bouchard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2738308,
+    "info": ""
+  },
+  {
+    "nom": "Rue Théberge",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2738238,
+    "info": ""
+  },
+  {
+    "nom": "Rue Racicot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2719436,
+    "info": ""
+  },
+  {
+    "nom": "Rue Châteauguay",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.274253,
+    "info": ""
+  },
+  {
+    "nom": "Rue Galipeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2715393,
+    "info": ""
+  },
+  {
+    "nom": "Rue Babuty",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2738605,
+    "info": ""
+  },
+  {
+    "nom": "Rue Alphonse-Gervais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2717533,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gounod",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2751204,
+    "info": ""
+  },
+  {
+    "nom": "Rue Frenière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2777667,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Eugène",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2782794,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gosselin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2769694,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cardinal",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2759503,
+    "info": ""
+  },
+  {
+    "nom": "Rue Vernois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2756074,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lanctôt",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2765862,
+    "info": ""
+  },
+  {
+    "nom": "Rue Turgeon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2784406,
+    "info": ""
+  },
+  {
+    "nom": "Rue Hemmings",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2966975,
+    "info": ""
+  },
+  {
+    "nom": "Chemin de l'Aéroport",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3006093,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bouthillier Nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2957297,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Trinitaires",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3039282,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Georges",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3047023,
+    "info": ""
+  },
+  {
+    "nom": "Rue La Salle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3055153,
+    "info": ""
+  },
+  {
+    "nom": "Rue Decelles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3073657,
+    "info": ""
+  },
+  {
+    "nom": "Rue Benny-sur-Mer",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3016791,
+    "info": ""
+  },
+  {
+    "nom": "Rue Boisvert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3042267,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pascale",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3019277,
+    "info": ""
+  },
+  {
+    "nom": "Rue Julien-Gagnon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2972532,
+    "info": ""
+  },
+  {
+    "nom": "Rue Turcotte",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3047343,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bousquet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3055497,
+    "info": ""
+  },
+  {
+    "nom": "Impasse Claude",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3046034,
+    "info": ""
+  },
+  {
+    "nom": "Rue Christian",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3049084,
+    "info": ""
+  },
+  {
+    "nom": "Rue Plaza",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3078788,
+    "info": ""
+  },
+  {
+    "nom": "Chemin du Grand-Bernier Sud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3033929,
+    "info": ""
+  },
+  {
+    "nom": "Chemin du Grand-Bernier Nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3040799,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pilon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3029063,
+    "info": ""
+  },
+  {
+    "nom": "Rue Provençal",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3067527,
+    "info": ""
+  },
+  {
+    "nom": "Rue Courseulles-sur-Mer",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2982579,
+    "info": ""
+  },
+  {
+    "nom": "Rue Juno",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2991971,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Normandie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2997112,
+    "info": ""
+  },
+  {
+    "nom": "Rue Paradis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3050642,
+    "info": ""
+  },
+  {
+    "nom": "Rue Frédette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3073595,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lebel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2914527,
+    "info": ""
+  },
+  {
+    "nom": "Rue Coderre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2956289,
+    "info": ""
+  },
+  {
+    "nom": "Rue Frenette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2942613,
+    "info": ""
+  },
+  {
+    "nom": "Rue Beauséjour",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2949387,
+    "info": ""
+  },
+  {
+    "nom": "Rue Leblanc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2953477,
+    "info": ""
+  },
+  {
+    "nom": "Rue Simard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.288707,
+    "info": ""
+  },
+  {
+    "nom": "Rue Duvernay",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2894231,
+    "info": ""
+  },
+  {
+    "nom": "Rue Foucher",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2908883,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cousins Sud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2922581,
+    "info": ""
+  },
+  {
+    "nom": "Rue Burland",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2927838,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Village-Suisse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2939663,
+    "info": ""
+  },
+  {
+    "nom": "Rue Fernand-Seguin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2918847,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Bois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2932863,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dollier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2952576,
+    "info": ""
+  },
+  {
+    "nom": "Rue René-Goupil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.294445,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cousins Nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2978523,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pinsonnault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2983921,
+    "info": ""
+  },
+  {
+    "nom": "Rue Morissette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2935395,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chaussé",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.296169,
+    "info": ""
+  },
+  {
+    "nom": "Rue Coursol",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3006321,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mackenzie-King",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3037717,
+    "info": ""
+  },
+  {
+    "nom": "Rue Collin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3026815,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mayrand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2989244,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dollard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3029552,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lajeunesse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2994137,
+    "info": ""
+  },
+  {
+    "nom": "Rue Labelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.300595,
+    "info": ""
+  },
+  {
+    "nom": "Rue Legrand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3053562,
+    "info": ""
+  },
+  {
+    "nom": "Rue Black",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3054329,
+    "info": ""
+  },
+  {
+    "nom": "Rue Delagrave",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.303814,
+    "info": ""
+  },
+  {
+    "nom": "Rue Richard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3074633,
+    "info": ""
+  },
+  {
+    "nom": "Rue Alexandre-Nadeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3053291,
+    "info": ""
+  },
+  {
+    "nom": "Rue Fortin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2980027,
+    "info": ""
+  },
+  {
+    "nom": "Rue Montcalm",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2971201,
+    "info": ""
+  },
+  {
+    "nom": "Rue Trahan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3006469,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Pierre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2991465,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chénier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3053256,
+    "info": ""
+  },
+  {
+    "nom": "Rue Larocque",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3053367,
+    "info": ""
+  },
+  {
+    "nom": "Rue Fernet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2655847,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marquette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2685277,
+    "info": ""
+  },
+  {
+    "nom": "Rue Belvédère",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2677889,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Colonnes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2637786,
+    "info": ""
+  },
+  {
+    "nom": "Rue Poirier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2698171,
+    "info": ""
+  },
+  {
+    "nom": "Rue Denis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2718158,
+    "info": ""
+  },
+  {
+    "nom": "Rue Brassard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2701713,
+    "info": ""
+  },
+  {
+    "nom": "Rue Alcide-Côté",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2709595,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Desranleau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2730717,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gamelin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2714079,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cyr",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2706104,
+    "info": ""
+  },
+  {
+    "nom": "Rue Payant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2727293,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bernard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2747377,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sainte-Marguerite",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2770199,
+    "info": ""
+  },
+  {
+    "nom": "Rue Boudreau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2756107,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Oasis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2797989,
+    "info": ""
+  },
+  {
+    "nom": "Rue Smith",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2732251,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Maurice",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2789852,
+    "info": ""
+  },
+  {
+    "nom": "Rue Roman",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.278323,
+    "info": ""
+  },
+  {
+    "nom": "Rue Beaulieu",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2776962,
+    "info": ""
+  },
+  {
+    "nom": "Rue Brais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2797131,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ouimet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2783902,
+    "info": ""
+  },
+  {
+    "nom": "Rue Charles-Preston",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2794061,
+    "info": ""
+  },
+  {
+    "nom": "Rue Parenteau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2851884,
+    "info": ""
+  },
+  {
+    "nom": "Rue Perrier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2845139,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2835011,
+    "info": ""
+  },
+  {
+    "nom": "Rue Beaubien",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2849801,
+    "info": ""
+  },
+  {
+    "nom": "Rue Verdi",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2839427,
+    "info": ""
+  },
+  {
+    "nom": "Rue Foisy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2848596,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Gaieté-Française",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2869496,
+    "info": ""
+  },
+  {
+    "nom": "Rue Longtin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3005601,
+    "info": ""
+  },
+  {
+    "nom": "Place du Marché",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3053083,
+    "info": ""
+  },
+  {
+    "nom": "Rue Victoria",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3035272,
+    "info": ""
+  },
+  {
+    "nom": "Rue Loyola",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3187518,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Pigalle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3123782,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-O.-Régnier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3100796,
+    "info": ""
+  },
+  {
+    "nom": "Rue Aubry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3092874,
+    "info": ""
+  },
+  {
+    "nom": "Rue Langelier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3083524,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Domaine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3104749,
+    "info": ""
+  },
+  {
+    "nom": "Rue Forestier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3123513,
+    "info": ""
+  },
+  {
+    "nom": "Rue Déry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3104986,
+    "info": ""
+  },
+  {
+    "nom": "Rue Carreau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3101169,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Roussillon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3085751,
+    "info": ""
+  },
+  {
+    "nom": "Rue Coloniale",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3089517,
+    "info": ""
+  },
+  {
+    "nom": "Rue Camille",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3123597,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lanoue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3100936,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ferrier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3120187,
+    "info": ""
+  },
+  {
+    "nom": "Rue Hébert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3108101,
+    "info": ""
+  },
+  {
+    "nom": "Rue Samoisette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3080737,
+    "info": ""
+  },
+  {
+    "nom": "Rue Brault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3115297,
+    "info": ""
+  },
+  {
+    "nom": "Rue Christine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3109481,
+    "info": ""
+  },
+  {
+    "nom": "Rue Amyot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3159467,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bourguignon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3159072,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Dijon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3157383,
+    "info": ""
+  },
+  {
+    "nom": "Rue Wilkinson",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3175406,
+    "info": ""
+  },
+  {
+    "nom": "Rue Garneau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3174874,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rémillard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3135429,
+    "info": ""
+  },
+  {
+    "nom": "Rue Boyer",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3135302,
+    "info": ""
+  },
+  {
+    "nom": "Rue Brosseau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3081179,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marchand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3076528,
+    "info": ""
+  },
+  {
+    "nom": "Rue Molleur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3104389,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lalemant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3158066,
+    "info": ""
+  },
+  {
+    "nom": "Rue Toupin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3135297,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Gérard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3490501,
+    "info": ""
+  },
+  {
+    "nom": "Rue Baillargeon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3616366,
+    "info": ""
+  },
+  {
+    "nom": "Rue Daniel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.352138,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marie-Louise-Rousselot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3293402,
+    "info": ""
+  },
+  {
+    "nom": "Rue Plante",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3295151,
+    "info": ""
+  },
+  {
+    "nom": "Rue Tanguay",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.329469,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Caisse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3298114,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Sousbretonne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3274391,
+    "info": ""
+  },
+  {
+    "nom": "Rue Desrochers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3293367,
+    "info": ""
+  },
+  {
+    "nom": "Rue Laberge",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3294333,
+    "info": ""
+  },
+  {
+    "nom": "Rue Douglas",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3323059,
+    "info": ""
+  },
+  {
+    "nom": "Rue MacDonald",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3253557,
+    "info": ""
+  },
+  {
+    "nom": "Rue Content",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3283032,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lesieur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3290276,
+    "info": ""
+  },
+  {
+    "nom": "Rue Maxime",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3503836,
+    "info": ""
+  },
+  {
+    "nom": "Rue Flaubert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3471885,
+    "info": ""
+  },
+  {
+    "nom": "Rue Aragon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3491908,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Bristol",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3332305,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Guyenne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3352766,
+    "info": ""
+  },
+  {
+    "nom": "Rue Camaraire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3356941,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rodier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3356827,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joseph-Crevier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.33747,
+    "info": ""
+  },
+  {
+    "nom": "Rue Le Moyne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3345487,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gadbois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3323839,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chaput",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3341173,
+    "info": ""
+  },
+  {
+    "nom": "Impasse Le Moyne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3341087,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Béarn",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3376126,
+    "info": ""
+  },
+  {
+    "nom": "Rue Prescott",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3378419,
+    "info": ""
+  },
+  {
+    "nom": "Rue Stéfoni",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3377351,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marie-Derome",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3366862,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Lotbinière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3367099,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Languedoc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3379621,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Millet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.345142,
+    "info": ""
+  },
+  {
+    "nom": "Rue Colbert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.349615,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Régent",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3491329,
+    "info": ""
+  },
+  {
+    "nom": "Rue D'Argenteuil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3447174,
+    "info": ""
+  },
+  {
+    "nom": "Rue Senécal",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3419909,
+    "info": ""
+  },
+  {
+    "nom": "Rue Le Renfort",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3427301,
+    "info": ""
+  },
+  {
+    "nom": "Rue Villeneuve",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.341736,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rimbaud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3447654,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Musset",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3491409,
+    "info": ""
+  },
+  {
+    "nom": "Place de la Pléiade",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3473594,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Maupassant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.348956,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marquis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3514052,
+    "info": ""
+  },
+  {
+    "nom": "Rue Choquette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3351301,
+    "info": ""
+  },
+  {
+    "nom": "Rue Meunier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3362908,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lachance",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3348673,
+    "info": ""
+  },
+  {
+    "nom": "Rue McMillan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3333973,
+    "info": ""
+  },
+  {
+    "nom": "Rue Cayer",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3379228,
+    "info": ""
+  },
+  {
+    "nom": "Rue Payette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3371426,
+    "info": ""
+  },
+  {
+    "nom": "Rue Desaulniers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3321259,
+    "info": ""
+  },
+  {
+    "nom": "Rue Beaudry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3321864,
+    "info": ""
+  },
+  {
+    "nom": "Rue Thibodeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3341994,
+    "info": ""
+  },
+  {
+    "nom": "Rue Victor-Hugo",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3350487,
+    "info": ""
+  },
+  {
+    "nom": "Rue Berthier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3302333,
+    "info": ""
+  },
+  {
+    "nom": "Rue Davignon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3310863,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rancourt",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3337626,
+    "info": ""
+  },
+  {
+    "nom": "Rue Laliberté",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3378845,
+    "info": ""
+  },
+  {
+    "nom": "Rue Casavant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.338544,
+    "info": ""
+  },
+  {
+    "nom": "Rue Péladeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3380667,
+    "info": ""
+  },
+  {
+    "nom": "Rue Philippe",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3400534,
+    "info": ""
+  },
+  {
+    "nom": "Rue Alexandre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.339206,
+    "info": ""
+  },
+  {
+    "nom": "Rue Leroy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3371139,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Briquetiers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3377814,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Bernières",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3373625,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lussier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3371413,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bissett",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3395022,
+    "info": ""
+  },
+  {
+    "nom": "Rue Beauchamp",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3366291,
+    "info": ""
+  },
+  {
+    "nom": "Rue Normand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3383805,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bonneau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3322478,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-Franquet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3351141,
+    "info": ""
+  },
+  {
+    "nom": "Rue Arthur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3494622,
+    "info": ""
+  },
+  {
+    "nom": "Rue Francine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3491463,
+    "info": ""
+  },
+  {
+    "nom": "Croissant des Pionniers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3459911,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Roses",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3472034,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chênevert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3479769,
+    "info": ""
+  },
+  {
+    "nom": "Rue Édouard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3455702,
+    "info": ""
+  },
+  {
+    "nom": "Rue La Galissonnière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3435668,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Renards",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3443983,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3429644,
+    "info": ""
+  },
+  {
+    "nom": "Rue Grenier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3439672,
+    "info": ""
+  },
+  {
+    "nom": "Rue Diderot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3443611,
+    "info": ""
+  },
+  {
+    "nom": "Rue Malo",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3425844,
+    "info": ""
+  },
+  {
+    "nom": "Rue Françoise-Rousselle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3413948,
+    "info": ""
+  },
+  {
+    "nom": "Rue Verlaine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3487837,
+    "info": ""
+  },
+  {
+    "nom": "Rue Robert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3491515,
+    "info": ""
+  },
+  {
+    "nom": "Rue Phyllis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3491616,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mailloux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.351109,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Ronsard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3479708,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Ciergerie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3507932,
+    "info": ""
+  },
+  {
+    "nom": "Rue Viau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3493802,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Étienne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3515871,
+    "info": ""
+  },
+  {
+    "nom": "Rue Léger",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3602884,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lafayette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3781191,
+    "info": ""
+  },
+  {
+    "nom": "Rue Richerville",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3837046,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jeanne-Robert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3550549,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Fortifications",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3622353,
+    "info": ""
+  },
+  {
+    "nom": "Rue Courville",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3583065,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sébastien",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3729685,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Légendes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3627766,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Bouleaux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3569005,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Tulipes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3598899,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Bretagne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3587274,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Mistral",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3608604,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Jacinthes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3594452,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Paul-Demaray",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3656105,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Mille-Roches",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3627999,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-Liénard-de-Beaujeu",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3674909,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Vézina",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3636184,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-Fréchette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3638515,
+    "info": ""
+  },
+  {
+    "nom": "Rue François-Blanchet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3683829,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jacques-Blain",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3698261,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Bergère",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3710549,
+    "info": ""
+  },
+  {
+    "nom": "Rue Montreuil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.383909,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gérard-Brunet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3739464,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dupuis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3724417,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Ormeaux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3559847,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jean",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3652304,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Montarville",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3736236,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dextradeur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3593819,
+    "info": ""
+  },
+  {
+    "nom": "Croissant des Iroquois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3618688,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Tourmaline",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3541876,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Montmartre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3541631,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Lilas",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3541041,
+    "info": ""
+  },
+  {
+    "nom": "Rue Modela",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3558053,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Échevins",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3533887,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Quatre-Saisons",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3550437,
+    "info": ""
+  },
+  {
+    "nom": "Rue Donais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3582437,
+    "info": ""
+  },
+  {
+    "nom": "Rue Labrosse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3598566,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-Pasteur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3604,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Montpellier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3599362,
+    "info": ""
+  },
+  {
+    "nom": "Rue Deslandes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3593437,
+    "info": ""
+  },
+  {
+    "nom": "Rue Plessis",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3598655,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Comte",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3579068,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard de la Mairie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.357753,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dufresne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3518951,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Mésanges",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3522816,
+    "info": ""
+  },
+  {
+    "nom": "Rue Corbière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3523537,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jean-François-Chabot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3635629,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Forêts",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3567987,
+    "info": ""
+  },
+  {
+    "nom": "Rue Claire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3571389,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Tourterelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3529154,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Postillon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.353129,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louise",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.352502,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Neuchâtel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3523582,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Hirondelles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3584166,
+    "info": ""
+  },
+  {
+    "nom": "Rue Châteaubriand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3530732,
+    "info": ""
+  },
+  {
+    "nom": "Rue Daignault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.355353,
+    "info": ""
+  },
+  {
+    "nom": "Rue Geoffrion",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3538118,
+    "info": ""
+  },
+  {
+    "nom": "Rue Deblois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.352348,
+    "info": ""
+  },
+  {
+    "nom": "Rue Giroux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3546113,
+    "info": ""
+  },
+  {
+    "nom": "Rue Tracy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3533171,
+    "info": ""
+  },
+  {
+    "nom": "Rue Docquier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3517176,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Peupliers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3579086,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ouellette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3558274,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Saules",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3577579,
+    "info": ""
+  },
+  {
+    "nom": "Rue Brodeur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3672615,
+    "info": ""
+  },
+  {
+    "nom": "Rue Massé",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3714185,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Orchidées",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3695689,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Bégonias",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3679656,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Oeillets",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3766965,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Gentilly",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3784,
+    "info": ""
+  },
+  {
+    "nom": "Rue Faille",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3815928,
+    "info": ""
+  },
+  {
+    "nom": "Rue Deslippe",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.381731,
+    "info": ""
+  },
+  {
+    "nom": "Rue Trudeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3711534,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marois",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.370019,
+    "info": ""
+  },
+  {
+    "nom": "Rue Houle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.369322,
+    "info": ""
+  },
+  {
+    "nom": "Rue Waegener",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3714554,
+    "info": ""
+  },
+  {
+    "nom": "Rue François-Lemaître",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3716414,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ricard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3721617,
+    "info": ""
+  },
+  {
+    "nom": "Rue Delinelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.371435,
+    "info": ""
+  },
+  {
+    "nom": "Rue Poissant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3778336,
+    "info": ""
+  },
+  {
+    "nom": "Rue Réal-Trépanier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3751135,
+    "info": ""
+  },
+  {
+    "nom": "Rue Champagne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3752291,
+    "info": ""
+  },
+  {
+    "nom": "Rue Alice",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3761439,
+    "info": ""
+  },
+  {
+    "nom": "Rue Arthur-Riendeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3771697,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Église",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3772696,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Beau-Rivage",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3777364,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lise",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3799171,
+    "info": ""
+  },
+  {
+    "nom": "Rue Beauchesne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3792792,
+    "info": ""
+  },
+  {
+    "nom": "Rue Meloche",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3802607,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jasmin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3803845,
+    "info": ""
+  },
+  {
+    "nom": "Chemin de la Grande-Ligne Est",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2581783,
+    "info": ""
+  },
+  {
+    "nom": "9e Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.381298,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lorraine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3741006,
+    "info": ""
+  },
+  {
+    "nom": "Rue Faubert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3722419,
+    "info": ""
+  },
+  {
+    "nom": "Rue Fontaine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3741257,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chalifoux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3685443,
+    "info": ""
+  },
+  {
+    "nom": "Rue Piédalue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3761866,
+    "info": ""
+  },
+  {
+    "nom": "Rue Godin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3765907,
+    "info": ""
+  },
+  {
+    "nom": "Rue Tobin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3722605,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ferdais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.367301,
+    "info": ""
+  },
+  {
+    "nom": "Rue Berthiaume",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3695481,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gérald-Marsan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3690373,
+    "info": ""
+  },
+  {
+    "nom": "Rue David",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3725932,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sévigny",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3705463,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Curé-Provost",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3677371,
+    "info": ""
+  },
+  {
+    "nom": "Rue Prairie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3714339,
+    "info": ""
+  },
+  {
+    "nom": "Rue Armand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3712721,
+    "info": ""
+  },
+  {
+    "nom": "Rue Denault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3662341,
+    "info": ""
+  },
+  {
+    "nom": "Rue Josée",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3695505,
+    "info": ""
+  },
+  {
+    "nom": "Rue Roméo",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3692527,
+    "info": ""
+  },
+  {
+    "nom": "Rue De La Citière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3715644,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bruno",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3869953,
+    "info": ""
+  },
+  {
+    "nom": "Rue Wing",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3780929,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Nevada",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3790994,
+    "info": ""
+  },
+  {
+    "nom": "6e Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3796768,
+    "info": ""
+  },
+  {
+    "nom": "Rue Létourneau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3788758,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Bermudes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3789495,
+    "info": ""
+  },
+  {
+    "nom": "Rue de San-Francisco",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.378312,
+    "info": ""
+  },
+  {
+    "nom": "Rue d'Arizona",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3787241,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Costa-Rica",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3787733,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Nassau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3784262,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Miami",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3778396,
+    "info": ""
+  },
+  {
+    "nom": "7e Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3797199,
+    "info": ""
+  },
+  {
+    "nom": "5e Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3796825,
+    "info": ""
+  },
+  {
+    "nom": "Rue Laporte",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3777042,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Anse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3780935,
+    "info": ""
+  },
+  {
+    "nom": "Chemin du Coteau-de-Trèfle Sud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3808291,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Salières",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3854884,
+    "info": ""
+  },
+  {
+    "nom": "Rue Eugène",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3676538,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Concession",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3990755,
+    "info": ""
+  },
+  {
+    "nom": "Croissant De Valrennes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3978508,
+    "info": ""
+  },
+  {
+    "nom": "Rue Beauchemin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3984101,
+    "info": ""
+  },
+  {
+    "nom": "Rue Antoine-Doré",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3638021,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Lourtel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3643282,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Âtre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3726984,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dugas",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.372383,
+    "info": ""
+  },
+  {
+    "nom": "Avenue des Pins",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3873116,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sainte-Thérèse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3492413,
+    "info": ""
+  },
+  {
+    "nom": "Pont no 10",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3483019,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Prés",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3653176,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Prunelliers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3653929,
+    "info": ""
+  },
+  {
+    "nom": "Rue Angèle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3750306,
+    "info": ""
+  },
+  {
+    "nom": "8e Rue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3804209,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Rouville",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3898697,
+    "info": ""
+  },
+  {
+    "nom": "Chemin de la Grande-Ligne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3822306,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Impératrice",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3588461,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Carrières",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3050397,
+    "info": ""
+  },
+  {
+    "nom": "Route 219",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.279551,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Industriel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3277072,
+    "info": ""
+  },
+  {
+    "nom": "Rue Boulais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3184882,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dumas",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2417782,
+    "info": ""
+  },
+  {
+    "nom": "Rue Milot",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2853492,
+    "info": ""
+  },
+  {
+    "nom": "Rue Peter",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2862989,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Montgolfier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.284447,
+    "info": ""
+  },
+  {
+    "nom": "Rue d'Orléans",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2680313,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Gérard-Brunelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2940893,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Gérard-Sanfaçon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2930872,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Cournoyer",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2877032,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Buissons",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2794627,
+    "info": ""
+  },
+  {
+    "nom": "Descente Normandeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2589241,
+    "info": ""
+  },
+  {
+    "nom": "Rue Caron",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3781643,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-Laguë",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.373303,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jules-Duval",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3733136,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Poterie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3077124,
+    "info": ""
+  },
+  {
+    "nom": "Carré Chopin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2765566,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ravel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2789903,
+    "info": ""
+  },
+  {
+    "nom": "Rue Vivaldi",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2762157,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Berry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2711917,
+    "info": ""
+  },
+  {
+    "nom": "Rue Schubert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2782763,
+    "info": ""
+  },
+  {
+    "nom": "Rue Mozart",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2758269,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lamothe",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2749722,
+    "info": ""
+  },
+  {
+    "nom": "Rue Massenet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2762217,
+    "info": ""
+  },
+  {
+    "nom": "Rue Constant-Cartier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3086087,
+    "info": ""
+  },
+  {
+    "nom": "Rue Dumont",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2869675,
+    "info": ""
+  },
+  {
+    "nom": "Rue Antoine-Coupal",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.308706,
+    "info": ""
+  },
+  {
+    "nom": "Rue Vincent-D'Indy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2773149,
+    "info": ""
+  },
+  {
+    "nom": "Rue Berlioz",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.276583,
+    "info": ""
+  },
+  {
+    "nom": "Rue Brahms",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2780282,
+    "info": ""
+  },
+  {
+    "nom": "Rue Liszt",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2772868,
+    "info": ""
+  },
+  {
+    "nom": "Rue Offenbach",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2751478,
+    "info": ""
+  },
+  {
+    "nom": "Rue Roquemaure",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2708204,
+    "info": ""
+  },
+  {
+    "nom": "Rue Racine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2753086,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Carleton",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2936506,
+    "info": ""
+  },
+  {
+    "nom": "Rue Couture",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3169962,
+    "info": ""
+  },
+  {
+    "nom": "Rue Étienne-Sanschagrin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3399624,
+    "info": ""
+  },
+  {
+    "nom": "Rue L'Écuyer",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.323621,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ménard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3236564,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Lauzon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3429766,
+    "info": ""
+  },
+  {
+    "nom": "Rue Nicolas",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3430108,
+    "info": ""
+  },
+  {
+    "nom": "Rue Désourdy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3425839,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chartrand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3384148,
+    "info": ""
+  },
+  {
+    "nom": "Rue Shannon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3391456,
+    "info": ""
+  },
+  {
+    "nom": "Rue Hypolite-Rougié",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3390945,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Bord-de-l'Eau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3230124,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Chambly",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3214946,
+    "info": ""
+  },
+  {
+    "nom": "Rue L'Espérance",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3596455,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Grenat",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3569887,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-Martel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3548772,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Émeraude",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3576036,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Jade",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3561164,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Chardonnerets",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3522338,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ladouceur",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3713379,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Balbuzards",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3635309,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Huards",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3609634,
+    "info": ""
+  },
+  {
+    "nom": "Rue Thibeault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3715923,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lemay",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3683226,
+    "info": ""
+  },
+  {
+    "nom": "Rue Riviera",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3627483,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Pruches",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3600714,
+    "info": ""
+  },
+  {
+    "nom": "Rue Aurèle-Benoît",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3686015,
+    "info": ""
+  },
+  {
+    "nom": "Rue Ross",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3727609,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Boisé-de-l'Île",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3679324,
+    "info": ""
+  },
+  {
+    "nom": "Rue Trottier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3713902,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rachel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3729849,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bombardier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3706215,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gaudry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3709898,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lemieux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3707943,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Bourg-Joli",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3701756,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Pinède",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3617933,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Chèvrefeuilles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.360171,
+    "info": ""
+  },
+  {
+    "nom": "Rue Barrette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3703584,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Hérons",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3602519,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bachand",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3676856,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Rémi",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3704564,
+    "info": ""
+  },
+  {
+    "nom": "Rue Tessier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.34918,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Éperviers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3557773,
+    "info": ""
+  },
+  {
+    "nom": "Rue Voltaire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3485284,
+    "info": ""
+  },
+  {
+    "nom": "Rue Molière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3491724,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Sittelles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3567553,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Geais-Bleus",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3556724,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Maupassant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3603847,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Colibris",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.355958,
+    "info": ""
+  },
+  {
+    "nom": "Rue Fortier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3535094,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Roitelets",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3586341,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Cormorans",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3554802,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Hêtres",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.356836,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Marronniers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3510348,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Forgerons",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3457372,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard des Peupliers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2944463,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Pente-Douce",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3071732,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Champs",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3069406,
+    "info": ""
+  },
+  {
+    "nom": "Rue Berger",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3032628,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Fort",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3005823,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bouthillier Sud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2930441,
+    "info": ""
+  },
+  {
+    "nom": "Impasse Foucher",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2904014,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Charles-Henri-Hébert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3119875,
+    "info": ""
+  },
+  {
+    "nom": "Rue Germain-Davignon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3022649,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pelletier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3019553,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gérard-Gauthier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3019886,
+    "info": ""
+  },
+  {
+    "nom": "Rue Félix-Meunier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2959864,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Pierre-Tremblay",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3065957,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Allier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2972964,
+    "info": ""
+  },
+  {
+    "nom": "Rue Duquette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3002093,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Lionel-Ménard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2989755,
+    "info": ""
+  },
+  {
+    "nom": "9e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3110184,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Quai",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3052359,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Saint-Christophe",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3096846,
+    "info": ""
+  },
+  {
+    "nom": "3e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3054093,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Thomas",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3086119,
+    "info": ""
+  },
+  {
+    "nom": "4e Rang Sud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3001204,
+    "info": ""
+  },
+  {
+    "nom": "Route 133",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2814135,
+    "info": ""
+  },
+  {
+    "nom": "Rue Balthazard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3106978,
+    "info": ""
+  },
+  {
+    "nom": "5e Avenue",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3070698,
+    "info": ""
+  },
+  {
+    "nom": "Rue Philibert-Contant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.308949,
+    "info": ""
+  },
+  {
+    "nom": "Rue Laval",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2956933,
+    "info": ""
+  },
+  {
+    "nom": "Rue Archambeault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2720502,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lina",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3055653,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Lareau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2934712,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Cascades",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2705552,
+    "info": ""
+  },
+  {
+    "nom": "Rue Yvon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.310059,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Georges-Rainville",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3112102,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Henri-Lamoureux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.31045,
+    "info": ""
+  },
+  {
+    "nom": "Rue Hubert-Paré",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3034855,
+    "info": ""
+  },
+  {
+    "nom": "Rue Réjean-Grégoire",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2772865,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lucie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3096917,
+    "info": ""
+  },
+  {
+    "nom": "Rue Louis-H.-La Fontaine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3114158,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Alexandre-Dufresne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3017562,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joseph-Oscar-Lévesque",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3072239,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Montrichard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3020704,
+    "info": ""
+  },
+  {
+    "nom": "Rue Harolde-Savoy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3034791,
+    "info": ""
+  },
+  {
+    "nom": "Rue Filion",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2848411,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Larivière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3047648,
+    "info": ""
+  },
+  {
+    "nom": "Rue Hélène",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2948622,
+    "info": ""
+  },
+  {
+    "nom": "Rue Aldéo-Boucher",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2878601,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Jeanne-d'Arc",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3060321,
+    "info": ""
+  },
+  {
+    "nom": "Rue Sainte-Bernadette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2961034,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rainville",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2864069,
+    "info": ""
+  },
+  {
+    "nom": "Rue Tremblay",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2769253,
+    "info": ""
+  },
+  {
+    "nom": "Rue Élisée-Chicoine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3107686,
+    "info": ""
+  },
+  {
+    "nom": "Allée de la Riveraine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2913862,
+    "info": ""
+  },
+  {
+    "nom": "Rue d'Hydro",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3095036,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Arnaud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2747242,
+    "info": ""
+  },
+  {
+    "nom": "Rue Micheline",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2841879,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Desjardins",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3082076,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Monnoir",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2689778,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Masseau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3053263,
+    "info": ""
+  },
+  {
+    "nom": "Rue Saint-Gabriel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3080395,
+    "info": ""
+  },
+  {
+    "nom": "Rue Beauvais",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2939101,
+    "info": ""
+  },
+  {
+    "nom": "La Montérégiade",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3001753,
+    "info": ""
+  },
+  {
+    "nom": "Rue d'Acapulco",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3781831,
+    "info": ""
+  },
+  {
+    "nom": "Rue Kennedy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3773123,
+    "info": ""
+  },
+  {
+    "nom": "Rue de l'Alouette",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3775054,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Lac",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3430969,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Froment",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3183655,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Lacolle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3213396,
+    "info": ""
+  },
+  {
+    "nom": "Rue William-P.-Christie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3208025,
+    "info": ""
+  },
+  {
+    "nom": "Rue de La Colonelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3196827,
+    "info": ""
+  },
+  {
+    "nom": "Rue Augustin-Gauthier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.343217,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Sirocco",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3588287,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Tramontane",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3542658,
+    "info": ""
+  },
+  {
+    "nom": "Rue Savard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.355376,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Brise",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.358469,
+    "info": ""
+  },
+  {
+    "nom": "Rue Clermont",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3571018,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Remparts",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2992205,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Iberville",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2962787,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Leicester",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2956061,
+    "info": ""
+  },
+  {
+    "nom": "Avenue Royal-Roussillon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2969873,
+    "info": ""
+  },
+  {
+    "nom": "Rue LaSarre",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2979386,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Carignan-Salières",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2952319,
+    "info": ""
+  },
+  {
+    "nom": "Rue de La Brisardière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.32042,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Pépinière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3279445,
+    "info": ""
+  },
+  {
+    "nom": "Rue Comeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3206353,
+    "info": ""
+  },
+  {
+    "nom": "Rue Doucet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.321308,
+    "info": ""
+  },
+  {
+    "nom": "Chemin du Ruisseau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3209235,
+    "info": ""
+  },
+  {
+    "nom": "Rue L'Heureux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3174018,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joseph-Tremblay",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3189771,
+    "info": ""
+  },
+  {
+    "nom": "Rue Robert-Jones",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3223439,
+    "info": ""
+  },
+  {
+    "nom": "Rue Loubias",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3189379,
+    "info": ""
+  },
+  {
+    "nom": "Rue Nadar",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3136333,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Berceau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2996832,
+    "info": ""
+  },
+  {
+    "nom": "Rue Choinière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2993002,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Mimosas",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.324681,
+    "info": ""
+  },
+  {
+    "nom": "Rue Amelia Bowman",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3183726,
+    "info": ""
+  },
+  {
+    "nom": "Rue René-Boileau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3112486,
+    "info": ""
+  },
+  {
+    "nom": "Rue Talon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3596919,
+    "info": ""
+  },
+  {
+    "nom": "Rue Goupil",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3605966,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lapalme",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3650498,
+    "info": ""
+  },
+  {
+    "nom": "Rue Benjamin-Holmes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3346568,
+    "info": ""
+  },
+  {
+    "nom": "Boulevard Alexis-Lebert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3386244,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Bruants",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3641719,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Sarcelles",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3651324,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Sternes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.363815,
+    "info": ""
+  },
+  {
+    "nom": "Rue Monteverdi",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2787797,
+    "info": ""
+  },
+  {
+    "nom": "Rue André-Mathieu",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.278447,
+    "info": ""
+  },
+  {
+    "nom": "Impasse Besse",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3074202,
+    "info": ""
+  },
+  {
+    "nom": "Croissant du Sirocco",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3602484,
+    "info": ""
+  },
+  {
+    "nom": "Rue De Bavière",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3509798,
+    "info": ""
+  },
+  {
+    "nom": "Rue Daudelin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3640257,
+    "info": ""
+  },
+  {
+    "nom": "Rang des Patriotes Nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2287065,
+    "info": ""
+  },
+  {
+    "nom": "Chemin du Grand-Bernier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2512737,
+    "info": ""
+  },
+  {
+    "nom": "Promenade riveraine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3080978,
+    "info": ""
+  },
+  {
+    "nom": "Rue Lafrance",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.317523,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joseph-Doyon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2837796,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Falaise",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3010616,
+    "info": ""
+  },
+  {
+    "nom": "Rue Capriquet",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2994724,
+    "info": ""
+  },
+  {
+    "nom": "Rue de Caen",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3010498,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bretteville-sur-Laise",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2986372,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bayeux",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3024777,
+    "info": ""
+  },
+  {
+    "nom": "Rue Joseph-Bourdeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3420608,
+    "info": ""
+  },
+  {
+    "nom": "Rue Rochon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3734258,
+    "info": ""
+  },
+  {
+    "nom": "Rue Knight",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3066684,
+    "info": ""
+  },
+  {
+    "nom": "Pont Gouin",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3063706,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Bernaches",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3552859,
+    "info": ""
+  },
+  {
+    "nom": "Rue Michel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3089764,
+    "info": ""
+  },
+  {
+    "nom": "Rue Gérard-Majella",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3201523,
+    "info": ""
+  },
+  {
+    "nom": "Rue Farrar",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2873424,
+    "info": ""
+  },
+  {
+    "nom": "Chemin Bellerive",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.4044873,
+    "info": ""
+  },
+  {
+    "nom": "Chemin Salaberry",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.4028195,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Censitaires",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.4025781,
+    "info": ""
+  },
+  {
+    "nom": "Rue Chagnon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2920241,
+    "info": ""
+  },
+  {
+    "nom": "Rue Bourret",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3068195,
+    "info": ""
+  },
+  {
+    "nom": "Rue Marie-Curie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3616914,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Diamant",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3592654,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Chevaliers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3571068,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Petit-Prince",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3584463,
+    "info": ""
+  },
+  {
+    "nom": "Place de Poitiers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3575972,
+    "info": ""
+  },
+  {
+    "nom": "Rue Galilée",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3618008,
+    "info": ""
+  },
+  {
+    "nom": "Albatros",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2908912,
+    "info": ""
+  },
+  {
+    "nom": "Rue Magellan",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.295497,
+    "info": ""
+  },
+  {
+    "nom": "Rue Catherine",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2916723,
+    "info": ""
+  },
+  {
+    "nom": "Rue Théodore-Béchard",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3704468,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Sorbiers",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.374071,
+    "info": ""
+  },
+  {
+    "nom": "Sentier multifonctionnel",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3060007,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Parulines",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3042517,
+    "info": ""
+  },
+  {
+    "nom": "Sentier des marécages",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3052498,
+    "info": ""
+  },
+  {
+    "nom": "Sentier",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2418834,
+    "info": ""
+  },
+  {
+    "nom": "Piste sud",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3063284,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jules-Verne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3451682,
+    "info": ""
+  },
+  {
+    "nom": "Rue Jacques-Prévert",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3459584,
+    "info": ""
+  },
+  {
+    "nom": "Piste nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3063875,
+    "info": ""
+  },
+  {
+    "nom": "Accès 2020 Pont Gouin nord",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3077411,
+    "info": ""
+  },
+  {
+    "nom": "Rue Des Violettes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3726101,
+    "info": ""
+  },
+  {
+    "nom": "Sentier Hazen",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3125407,
+    "info": ""
+  },
+  {
+    "nom": "Passerelle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3114254,
+    "info": ""
+  },
+  {
+    "nom": "Rue Pierre-Dionne",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3085633,
+    "info": ""
+  },
+  {
+    "nom": "Rue Victor-Bourgeau",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3073535,
+    "info": ""
+  },
+  {
+    "nom": "Chemin de Saint-Jean",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3857091,
+    "info": ""
+  },
+  {
+    "nom": "Autoroute des Cantons-de-l'Est",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.4093642,
+    "info": ""
+  },
+  {
+    "nom": "Tecnic St-Jean-Sur-Richelieu - Motorcycle",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.295282,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Artistes",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3052331,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Grives",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3576357,
+    "info": ""
+  },
+  {
+    "nom": "Rue de la Cabinetterie",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3106211,
+    "info": ""
+  },
+  {
+    "nom": "Rue des Anémones",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3730817,
+    "info": ""
+  },
+  {
+    "nom": "Rue McNulty",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3407012,
+    "info": ""
+  },
+  {
+    "nom": "Rue du Village-Boisé",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3560284,
+    "info": ""
+  },
+  {
+    "nom": "Rue Roy",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3536674,
+    "info": ""
+  },
+  {
+    "nom": "rue Bernard-Dussault",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3062999,
+    "info": ""
+  },
+  {
+    "nom": "Goéland",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2916263,
+    "info": ""
+  },
+  {
+    "nom": "Faucon",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.2898951,
+    "info": ""
+  },
+  {
+    "nom": "Rue Victor",
+    "secteur": "Saint-Jean / Saint-Luc",
+    "lat": 45.3135265,
+    "info": ""
+  }
+]
