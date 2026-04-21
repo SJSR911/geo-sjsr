@@ -6,38 +6,41 @@
     <title>Formation SSISJR</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; }
-        header { background: #c0392b; color: white; padding: 10px; text-align: center; }
-        .layout { display: flex; flex: 1; }
-        #controls { width: 320px; padding: 20px; background: white; border-right: 1px solid #ddd; z-index: 1000; }
+        :root { --fire: #c0392b; --dark: #2c3e50; }
+        body { font-family: sans-serif; margin: 0; display: flex; flex-direction: column; height: 100vh; background: #f4f4f4; }
+        header { background: var(--fire); color: white; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+        .main { display: flex; flex: 1; overflow: hidden; }
+        #sidebar { width: 350px; background: white; padding: 20px; display: flex; flex-direction: column; box-shadow: 2px 0 10px rgba(0,0,0,0.1); z-index: 1000; }
         #map { flex: 1; }
-        .btn { width: 100%; padding: 12px; margin-bottom: 10px; cursor: pointer; font-weight: bold; border-radius: 5px; border: 1px solid #ccc; }
-        .filter-group { display: flex; gap: 5px; margin-bottom: 20px; }
-        .btn-filter { flex: 1; font-size: 0.8rem; }
-        .active { background: #2c3e50; color: white; }
-        .next { background: #c0392b; color: white; border: none; font-size: 1.1rem; }
-        .reveal { background: #27ae60; color: white; border: none; display: none; }
-        #display { text-align: center; border: 2px solid #f0f0f0; padding: 20px; border-radius: 10px; margin-bottom: 10px; }
-        #street-name { font-size: 1.4rem; color: #c0392b; font-weight: bold; margin: 10px 0; }
+        .sector-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; }
+        button { padding: 12px; cursor: pointer; border-radius: 6px; border: 1px solid #ddd; font-weight: bold; transition: 0.2s; }
+        .active { background: var(--dark) !important; color: white !important; }
+        #quiz-box { border: 2px solid #f0f0f0; padding: 20px; text-align: center; border-radius: 12px; background: #fff; }
+        #street-display { font-size: 1.5rem; color: var(--fire); margin: 15px 0; min-height: 1.5em; font-weight: 800; }
+        .btn-next { background: var(--fire); color: white; width: 100%; border: none; font-size: 1.1rem; margin-bottom: 10px; }
+        .btn-reveal { background: #27ae60; color: white; width: 100%; border: none; font-size: 1.1rem; display: none; }
+        .info-label { font-size: 0.8rem; color: #888; text-transform: uppercase; }
+        @media (max-width: 800px) { .main { flex-direction: column; } #sidebar { width: 100%; } #map { height: 300px; } }
     </style>
 </head>
 <body>
 
-<header><h1>🚒 Étude de Territoire</h1></header>
+<header><h1>🚒 Connaissance du Territoire - SSISJR</h1></header>
 
-<div class="layout">
-    <div id="controls">
-        <div class="filter-group">
-            <button class="btn btn-filter active" onclick="changerFiltre('Tous', this)">Tous</button>
-            <button class="btn btn-filter" onclick="changerFiltre('Iberville', this)">Iberville</button>
-            <button class="btn btn-filter" onclick="changerFiltre('Saint-Jean', this)">SJ/SL</button>
+<div class="main">
+    <div id="sidebar">
+        <h3>Secteurs d'étude</h3>
+        <div class="sector-btns">
+            <button class="btn-filter active" onclick="changeSecteur('Tous', this)">Tous</button>
+            <button class="btn-filter" onclick="changeSecteur('Iberville', this)">Iberville</button>
+            <button class="btn-filter" onclick="changeSecteur('Saint-Jean / Saint-Luc', this)">SJ / St-Luc</button>
         </div>
 
-        <div id="display">
-            <div id="sector-info" style="color: #666; font-size: 0.8rem;">Chargement...</div>
-            <div id="street-name">En attente</div>
-            <button class="btn next" onclick="tirerRue()">RUE SUIVANTE</button>
-            <button id="btn-reveal" class="btn reveal" onclick="montrer()">VOIR SUR LA CARTE</button>
+        <div id="quiz-box">
+            <div id="sector-indicator" class="info-label">Initialisation...</div>
+            <div id="street-display">Chargement...</div>
+            <button class="btn-next" onclick="getNewStreet()">RUE SUIVANTE</button>
+            <button id="btn-reveal" class="btn-reveal" onclick="revealOnMap()">VOIR SUR LA CARTE</button>
         </div>
     </div>
     <div id="map"></div>
@@ -45,66 +48,75 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-    let dataRues = [];
-    let listeAffichee = [];
-    let rueChoisie = null;
-    let carte, marqueur;
+    // Variables globales
+    let streetsData = [];
+    let currentFiltered = [];
+    let currentStreet = null;
+    let map, marker;
 
     // Initialisation
     function init() {
-        carte = L.map('map').setView([45.3057, -73.2534], 13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(carte);
-        marqueur = L.marker([0,0]).addTo(carte);
-        marqueur.setOpacity(0);
+        map = L.map('map').setView([45.3057, -73.2534], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        marker = L.marker([0,0]).addTo(map);
+        marker.setOpacity(0);
 
         fetch('donnees_rues.json')
-            .then(r => r.json())
-            .then(data => {
-                dataRues = data;
-                listeAffichee = data;
-                document.getElementById('sector-info').innerText = data.length + " rues chargées";
-                document.getElementById('street-name').innerText = "Cliquez sur Suivante";
+            .then(res => {
+                if (!res.ok) throw new Error("Fichier JSON non trouvé");
+                return res.json();
             })
-            .catch(e => {
-                document.getElementById('street-name').innerText = "Erreur JSON";
+            .then(data => {
+                streetsData = data;
+                currentFiltered = data;
+                document.getElementById('street-display').innerText = data.length + " rues prêtes";
+                document.getElementById('sector-indicator').innerText = "Prêt";
+            })
+            .catch(err => {
+                document.getElementById('street-display').innerText = "Erreur : donnees_rues.json absent";
+                console.error(err);
             });
     }
 
-    function changerFiltre(sec, btn) {
+    // Fonction de filtrage (nommée changeSecteur pour tes boutons)
+    function changeSecteur(secteur, btn) {
         document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        
-        if (sec === 'Tous') {
-            listeAffichee = dataRues;
+
+        if (secteur === 'Tous') {
+            currentFiltered = streetsData;
         } else {
-            // Recherche très large : si le mot est contenu dans le secteur
-            listeAffichee = dataRues.filter(r => 
-                r.secteur && r.secteur.toLowerCase().includes(sec.toLowerCase())
+            // Filtre flexible qui cherche le mot dans la donnée secteur du JSON
+            let motCle = secteur.split(' ')[0].toLowerCase();
+            currentFiltered = streetsData.filter(s => 
+                s.secteur && s.secteur.toLowerCase().includes(motCle)
             );
         }
-        tirerRue();
+        getNewStreet();
     }
 
-    function tirerRue() {
-        if (listeAffichee.length === 0) {
-            document.getElementById('street-name').innerText = "Aucune rue trouvée";
+    // Sélection d'une rue (nommée getNewStreet pour tes boutons)
+    function getNewStreet() {
+        if (currentFiltered.length === 0) {
+            document.getElementById('street-display').innerText = "Aucune rue trouvée";
             return;
         }
-        const index = Math.floor(Math.random() * listeAffichee.length);
-        rueChoisie = listeAffichee[index];
+        const index = Math.floor(Math.random() * currentFiltered.length);
+        currentStreet = currentFiltered[index];
 
-        document.getElementById('street-name').innerText = rueChoisie.nom;
-        document.getElementById('sector-info').innerText = rueChoisie.secteur;
+        document.getElementById('street-display').innerText = currentStreet.nom;
+        document.getElementById('sector-indicator').innerText = currentStreet.secteur;
         document.getElementById('btn-reveal').style.display = 'block';
-        marqueur.setOpacity(0);
+        marker.setOpacity(0);
     }
 
-    function montrer() {
-        if (!rueChoisie) return;
-        const coords = [rueChoisie.lat, rueChoisie.lng];
-        marqueur.setLatLng(coords).setOpacity(1);
-        marqueur.bindPopup(rueChoisie.nom).openPopup();
-        carte.flyTo(coords, 16);
+    // Affichage sur la carte (nommée revealOnMap pour ton bouton)
+    function revealOnMap() {
+        if (!currentStreet) return;
+        const coords = [currentStreet.lat, currentStreet.lng];
+        marker.setLatLng(coords).setOpacity(1);
+        marker.bindPopup("<b>" + currentStreet.nom + "</b>").openPopup();
+        map.flyTo(coords, 16);
     }
 
     window.onload = init;
