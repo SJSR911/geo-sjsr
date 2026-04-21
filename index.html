@@ -3,44 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formation Conducteur SSISJR</title>
+    <title>Formation SSISJR</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
-        :root { --fire: #c0392b; --dark: #2c3e50; }
-        body { font-family: sans-serif; margin: 0; display: flex; flex-direction: column; height: 100vh; background: #f4f4f4; }
-        header { background: var(--fire); color: white; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-        .main { display: flex; flex: 1; overflow: hidden; }
-        #sidebar { width: 350px; background: white; padding: 20px; display: flex; flex-direction: column; box-shadow: 2px 0 10px rgba(0,0,0,0.1); z-index: 1000; }
+        body { font-family: sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; }
+        header { background: #c0392b; color: white; padding: 10px; text-align: center; }
+        .layout { display: flex; flex: 1; }
+        #controls { width: 320px; padding: 20px; background: white; border-right: 1px solid #ddd; z-index: 1000; }
         #map { flex: 1; }
-        .sector-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; }
-        button { padding: 12px; cursor: pointer; border-radius: 6px; border: 1px solid #ddd; font-weight: bold; transition: 0.2s; }
-        .active { background: var(--dark) !important; color: white !important; }
-        #quiz-box { border: 2px solid #f0f0f0; padding: 20px; text-align: center; border-radius: 12px; background: #fff; }
-        #street-name { font-size: 1.5rem; color: var(--fire); margin: 15px 0; min-height: 1.5em; font-weight: 800; }
-        .btn-next { background: var(--fire); color: white; width: 100%; border: none; font-size: 1.1rem; margin-bottom: 10px; }
-        .btn-show { background: #27ae60; color: white; width: 100%; border: none; font-size: 1.1rem; display: none; }
-        .info-label { font-size: 0.8rem; color: #888; text-transform: uppercase; letter-spacing: 1px; }
-        @media (max-width: 800px) { .main { flex-direction: column; } #sidebar { width: 100%; } #map { height: 300px; } }
+        .btn { width: 100%; padding: 12px; margin-bottom: 10px; cursor: pointer; font-weight: bold; border-radius: 5px; border: 1px solid #ccc; }
+        .filter-group { display: flex; gap: 5px; margin-bottom: 20px; }
+        .btn-filter { flex: 1; font-size: 0.8rem; }
+        .active { background: #2c3e50; color: white; }
+        .next { background: #c0392b; color: white; border: none; font-size: 1.1rem; }
+        .reveal { background: #27ae60; color: white; border: none; display: none; }
+        #display { text-align: center; border: 2px solid #f0f0f0; padding: 20px; border-radius: 10px; margin-bottom: 10px; }
+        #street-name { font-size: 1.4rem; color: #c0392b; font-weight: bold; margin: 10px 0; }
     </style>
 </head>
 <body>
 
-<header><h1>🚒 Connaissance du Territoire - SSISJR</h1></header>
+<header><h1>🚒 Étude de Territoire</h1></header>
 
-<div class="main">
-    <div id="sidebar">
-        <h3>Secteurs d'étude</h3>
-        <div class="sector-btns">
-            <button class="btn-filter active" onclick="filtrer('Tous', this)">Tous</button>
-            <button class="btn-filter" onclick="filtrer('Iberville', this)">Iberville</button>
-            <button class="btn-filter" onclick="filtrer('Saint-Jean / Saint-Luc', this)">SJ / St-Luc</button>
+<div class="layout">
+    <div id="controls">
+        <div class="filter-group">
+            <button class="btn btn-filter active" onclick="changerFiltre('Tous', this)">Tous</button>
+            <button class="btn btn-filter" onclick="changerFiltre('Iberville', this)">Iberville</button>
+            <button class="btn btn-filter" onclick="changerFiltre('Saint-Jean', this)">SJ/SL</button>
         </div>
 
-        <div id="quiz-box">
-            <div id="sector-label" class="info-label">Chargement...</div>
-            <div id="street-name">Initialisation...</div>
-            <button class="btn-next" onclick="prochaineRue()">RUE SUIVANTE</button>
-            <button id="btn-reveal" class="btn-show" onclick="revelerCarte()">VOIR SUR LA CARTE</button>
+        <div id="display">
+            <div id="sector-info" style="color: #666; font-size: 0.8rem;">Chargement...</div>
+            <div id="street-name">En attente</div>
+            <button class="btn next" onclick="tirerRue()">RUE SUIVANTE</button>
+            <button id="btn-reveal" class="btn reveal" onclick="montrer()">VOIR SUR LA CARTE</button>
         </div>
     </div>
     <div id="map"></div>
@@ -48,89 +45,69 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-    let toutesLesRues = [];
-    let ruesFiltrees = [];
-    let rueActuelle = null;
-    let maCarte, monMarqueur;
+    let dataRues = [];
+    let listeAffichee = [];
+    let rueChoisie = null;
+    let carte, marqueur;
 
-    // 1. Initialisation
+    // Initialisation
     function init() {
-        maCarte = L.map('map').setView([45.3057, -73.2534], 13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(maCarte);
-        monMarqueur = L.marker([0,0]).addTo(maCarte);
-        monMarqueur.setOpacity(0);
+        carte = L.map('map').setView([45.3057, -73.2534], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(carte);
+        marqueur = L.marker([0,0]).addTo(carte);
+        marqueur.setOpacity(0);
 
         fetch('donnees_rues.json')
-            .then(res => res.json())
+            .then(r => r.json())
             .then(data => {
-                toutesLesRues = data;
-                ruesFiltrees = data;
-                document.getElementById('street-name').innerText = data.length + " rues prêtes";
-                document.getElementById('sector-label').innerText = "Appuyez sur Suivante";
+                dataRues = data;
+                listeAffichee = data;
+                document.getElementById('sector-info').innerText = data.length + " rues chargées";
+                document.getElementById('street-name').innerText = "Cliquez sur Suivante";
             })
-            .catch(err => {
-                document.getElementById('street-name').innerText = "Erreur de chargement JSON";
-                console.error(err);
+            .catch(e => {
+                document.getElementById('street-name').innerText = "Erreur JSON";
             });
     }
 
-    // 2. Gestion des filtres (Correction Iberville)
-    function filtrer(secteur, bouton) {
-        // Visuel des boutons
+    function changerFiltre(sec, btn) {
         document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
-        bouton.classList.add('active');
-
-        if (secteur === 'Tous') {
-            ruesFiltrees = toutesLesRues;
+        btn.classList.add('active');
+        
+        if (sec === 'Tous') {
+            listeAffichee = dataRues;
         } else {
-            // On compare sans tenir compte des majuscules et on cherche si le mot existe
-            let motCle = secteur.split(' ')[0].toLowerCase(); // "iberville" ou "saint-jean"
-            ruesFiltrees = toutesLesRues.filter(r => 
-                r.secteur && r.secteur.toLowerCase().includes(motCle)
+            // Recherche très large : si le mot est contenu dans le secteur
+            listeAffichee = dataRues.filter(r => 
+                r.secteur && r.secteur.toLowerCase().includes(sec.toLowerCase())
             );
         }
-        
-        prochaineRue();
+        tirerRue();
     }
 
-    // 3. Sélection d'une rue
-    function prochaineRue() {
-        if (ruesFiltrees.length === 0) {
+    function tirerRue() {
+        if (listeAffichee.length === 0) {
             document.getElementById('street-name').innerText = "Aucune rue trouvée";
-            document.getElementById('btn-reveal').style.display = 'none';
             return;
         }
+        const index = Math.floor(Math.random() * listeAffichee.length);
+        rueChoisie = listeAffichee[index];
 
-        const index = Math.floor(Math.random() * ruesFiltrees.length);
-        rueActuelle = ruesFiltrees[index];
-
-        document.getElementById('street-name').innerText = rueActuelle.nom;
-        document.getElementById('sector-label').innerText = rueActuelle.secteur;
+        document.getElementById('street-name').innerText = rueChoisie.nom;
+        document.getElementById('sector-info').innerText = rueChoisie.secteur;
         document.getElementById('btn-reveal').style.display = 'block';
-        
-        monMarqueur.setOpacity(0); // Cache la réponse
-        monMarqueur.closePopup();
+        marqueur.setOpacity(0);
     }
 
-    // 4. Révélation sur la carte (Bouton Emplacement)
-    function revelerCarte() {
-        if (!rueActuelle) return;
-        
-        const lat = rueActuelle.lat;
-        const lng = rueActuelle.lng;
-
-        if (lat && lng) {
-            const pos = [lat, lng];
-            monMarqueur.setLatLng(pos).setOpacity(1);
-            monMarqueur.bindPopup("<b>" + rueActuelle.nom + "</b>").openPopup();
-            maCarte.flyTo(pos, 16);
-        } else {
-            alert("Erreur : Coordonnées manquantes pour cette rue.");
-        }
+    function montrer() {
+        if (!rueChoisie) return;
+        const coords = [rueChoisie.lat, rueChoisie.lng];
+        marqueur.setLatLng(coords).setOpacity(1);
+        marqueur.bindPopup(rueChoisie.nom).openPopup();
+        carte.flyTo(coords, 16);
     }
 
     window.onload = init;
 </script>
-
 </body>
 </html>
