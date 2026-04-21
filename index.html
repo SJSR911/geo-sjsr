@@ -8,18 +8,17 @@
     <style>
         :root { --fire: #c0392b; --dark: #2c3e50; }
         body { font-family: sans-serif; margin: 0; display: flex; flex-direction: column; height: 100vh; background: #f4f4f4; }
-        header { background: var(--fire); color: white; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+        header { background: var(--fire); color: white; padding: 15px; text-align: center; }
         .main { display: flex; flex: 1; overflow: hidden; }
-        #sidebar { width: 350px; background: white; padding: 20px; display: flex; flex-direction: column; box-shadow: 2px 0 10px rgba(0,0,0,0.1); z-index: 1000; }
+        #sidebar { width: 350px; background: white; padding: 20px; box-shadow: 2px 0 10px rgba(0,0,0,0.1); z-index: 1000; }
         #map { flex: 1; }
         .sector-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; }
-        button { padding: 12px; cursor: pointer; border-radius: 6px; border: 1px solid #ddd; font-weight: bold; transition: 0.2s; }
+        button { padding: 12px; cursor: pointer; border-radius: 6px; border: 1px solid #ddd; font-weight: bold; }
         .active { background: var(--dark) !important; color: white !important; }
         #quiz-box { border: 2px solid #f0f0f0; padding: 20px; text-align: center; border-radius: 12px; background: #fff; }
-        #street-display { font-size: 1.5rem; color: var(--fire); margin: 15px 0; min-height: 1.5em; font-weight: 800; }
+        #street-display { font-size: 1.5rem; color: var(--fire); margin: 15px 0; min-height: 1.5em; font-weight: bold; }
         .btn-next { background: var(--fire); color: white; width: 100%; border: none; font-size: 1.1rem; margin-bottom: 10px; }
         .btn-reveal { background: #27ae60; color: white; width: 100%; border: none; font-size: 1.1rem; display: none; }
-        .info-label { font-size: 0.8rem; color: #888; text-transform: uppercase; }
         @media (max-width: 800px) { .main { flex-direction: column; } #sidebar { width: 100%; } #map { height: 300px; } }
     </style>
 </head>
@@ -29,7 +28,6 @@
 
 <div class="main">
     <div id="sidebar">
-        <h3>Secteurs d'étude</h3>
         <div class="sector-btns">
             <button class="btn-filter active" onclick="changeSecteur('Tous', this)">Tous</button>
             <button class="btn-filter" onclick="changeSecteur('Iberville', this)">Iberville</button>
@@ -37,7 +35,7 @@
         </div>
 
         <div id="quiz-box">
-            <div id="sector-indicator" class="info-label">Initialisation...</div>
+            <div id="sector-indicator" style="font-size:0.8rem; color:#888;">Initialisation...</div>
             <div id="street-display">Chargement...</div>
             <button class="btn-next" onclick="getNewStreet()">RUE SUIVANTE</button>
             <button id="btn-reveal" class="btn-reveal" onclick="revealOnMap()">VOIR SUR LA CARTE</button>
@@ -48,55 +46,53 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-    // Variables globales
-    let streetsData = [];
-    let currentFiltered = [];
-    let currentStreet = null;
-    let map, marker;
+    // ON DÉFINIT LES FONCTIONS D'ABORD POUR QU'ELLES SOIENT PRÊTES
+    var streetsData = [];
+    var currentFiltered = [];
+    var currentStreet = null;
+    var map, marker;
 
-    // Initialisation
     function init() {
         map = L.map('map').setView([45.3057, -73.2534], 13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
         marker = L.marker([0,0]).addTo(map);
         marker.setOpacity(0);
 
-        fetch('donnees_rues.json')
+        // LE TRUC : On ajoute ?v=123 pour forcer le rafraîchissement du fichier
+        fetch('donnees_rues.json?v=' + Date.now())
             .then(res => {
-                if (!res.ok) throw new Error("Fichier JSON non trouvé");
+                if (!res.ok) throw new Error("Fichier introuvable");
                 return res.json();
             })
             .then(data => {
                 streetsData = data;
                 currentFiltered = data;
                 document.getElementById('street-display').innerText = data.length + " rues prêtes";
-                document.getElementById('sector-indicator').innerText = "Prêt";
+                document.getElementById('sector-indicator').innerText = "Appuyez sur Suivante";
             })
             .catch(err => {
-                document.getElementById('street-display').innerText = "Erreur : donnees_rues.json absent";
+                document.getElementById('street-display').innerText = "Erreur de chargement JSON";
                 console.error(err);
             });
     }
 
-    // Fonction de filtrage (nommée changeSecteur pour tes boutons)
-    function changeSecteur(secteur, btn) {
+    // FONCTION GLOBALE POUR LES BOUTONS
+    window.changeSecteur = function(secteur, btn) {
         document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
 
         if (secteur === 'Tous') {
             currentFiltered = streetsData;
         } else {
-            // Filtre flexible qui cherche le mot dans la donnée secteur du JSON
             let motCle = secteur.split(' ')[0].toLowerCase();
             currentFiltered = streetsData.filter(s => 
                 s.secteur && s.secteur.toLowerCase().includes(motCle)
             );
         }
-        getNewStreet();
-    }
+        window.getNewStreet();
+    };
 
-    // Sélection d'une rue (nommée getNewStreet pour tes boutons)
-    function getNewStreet() {
+    window.getNewStreet = function() {
         if (currentFiltered.length === 0) {
             document.getElementById('street-display').innerText = "Aucune rue trouvée";
             return;
@@ -108,17 +104,17 @@
         document.getElementById('sector-indicator').innerText = currentStreet.secteur;
         document.getElementById('btn-reveal').style.display = 'block';
         marker.setOpacity(0);
-    }
+    };
 
-    // Affichage sur la carte (nommée revealOnMap pour ton bouton)
-    function revealOnMap() {
+    window.revealOnMap = function() {
         if (!currentStreet) return;
         const coords = [currentStreet.lat, currentStreet.lng];
         marker.setLatLng(coords).setOpacity(1);
         marker.bindPopup("<b>" + currentStreet.nom + "</b>").openPopup();
         map.flyTo(coords, 16);
-    }
+    };
 
+    // LANCEMENT
     window.onload = init;
 </script>
 </body>
