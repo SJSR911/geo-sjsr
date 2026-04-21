@@ -3,80 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formation SSISJR</title>
+    <title>Formation SSISJR | 3 Secteurs</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
-        :root { --fire: #c0392b; --dark: #2c3e50; }
-        body { font-family: sans-serif; margin: 0; display: flex; flex-direction: column; height: 100vh; background: #f4f4f4; }
-        header { background: var(--fire); color: white; padding: 15px; text-align: center; }
-        .main { display: flex; flex: 1; overflow: hidden; }
-        #sidebar { width: 350px; background: white; padding: 20px; box-shadow: 2px 0 10px rgba(0,0,0,0.1); z-index: 1000; }
+        :root { --fire: #c0392b; --dark: #2c3e50; --green: #27ae60; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; display: flex; flex-direction: column; height: 100vh; background: #f4f7f6; }
+        header { background: var(--fire); color: white; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1001; }
+        
+        .main-layout { display: flex; flex: 1; overflow: hidden; }
+        #sidebar { width: 360px; background: white; padding: 20px; display: flex; flex-direction: column; box-shadow: 2px 0 10px rgba(0,0,0,0.1); z-index: 1000; }
         #map { flex: 1; }
-        .sector-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; }
-        button { padding: 12px; cursor: pointer; border-radius: 6px; border: 1px solid #ddd; font-weight: bold; }
-        .active { background: var(--dark) !important; color: white !important; }
-        #quiz-box { border: 2px solid #f0f0f0; padding: 20px; text-align: center; border-radius: 12px; background: #fff; }
-        #street-display { font-size: 1.5rem; color: var(--fire); margin: 15px 0; min-height: 1.5em; font-weight: bold; }
-        .btn-next { background: var(--fire); color: white; width: 100%; border: none; font-size: 1.1rem; margin-bottom: 10px; }
-        .btn-reveal { background: #27ae60; color: white; width: 100%; border: none; font-size: 1.1rem; display: none; }
-        @media (max-width: 800px) { .main { flex-direction: column; } #sidebar { width: 100%; } #map { height: 300px; } }
+
+        .sector-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; }
+        button { padding: 12px; cursor: pointer; border-radius: 6px; border: 1px solid #ddd; font-weight: bold; font-size: 0.9rem; transition: 0.2s; }
+        .btn-filter { background: #f8f9fa; color: var(--dark); }
+        .btn-filter.active { background: var(--dark); color: white; border-color: var(--dark); }
+
+        #quiz-container { background: #fff; border: 2px solid #edf2f7; border-radius: 12px; padding: 25px; text-align: center; margin-top: 10px; }
+        #street-display { font-size: 1.6rem; color: var(--fire); margin: 15px 0; min-height: 1.6em; font-weight: 800; line-height: 1.2; }
+        .label-sec { font-size: 0.8rem; color: #a0aec0; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; }
+
+        .btn-next { background: var(--fire); color: white; width: 100%; border: none; font-size: 1.1rem; margin-bottom: 10px; padding: 15px; }
+        .btn-reveal { background: var(--green); color: white; width: 100%; border: none; font-size: 1.1rem; padding: 15px; display: none; }
+
+        @media (max-width: 900px) {
+            .main-layout { flex-direction: column; }
+            #sidebar { width: 100%; height: auto; box-sizing: border-box; }
+            #map { height: 350px; }
+        }
     </style>
 </head>
 <body>
 
-<header><h1>🚒 Connaissance du Territoire - SSISJR</h1></header>
+<header>
+    <h1>🚒 Territoire SSISJR - 3 Secteurs</h1>
+</header>
 
-<div class="main">
+<div class="main-layout">
     <div id="sidebar">
-        <div class="sector-btns">
+        <h3>Secteurs</h3>
+        <div class="sector-grid">
             <button class="btn-filter active" onclick="changeSecteur('Tous', this)">Tous</button>
             <button class="btn-filter" onclick="changeSecteur('Iberville', this)">Iberville</button>
-            <button class="btn-filter" onclick="changeSecteur('Saint-Jean / Saint-Luc', this)">SJ / St-Luc</button>
+            <button class="btn-filter" onclick="changeSecteur('Saint-Jean', this)">Saint-Jean</button>
+            <button class="btn-filter" onclick="changeSecteur('Saint-Luc', this)">Saint-Luc</button>
         </div>
 
-        <div id="quiz-box">
-            <div id="sector-indicator" style="font-size:0.8rem; color:#888;">Initialisation...</div>
-            <div id="street-display">Chargement...</div>
+        <div id="quiz-container">
+            <div id="sector-indicator" class="label-sec">Chargement...</div>
+            <div id="street-display">Initialisation en cours</div>
+            
             <button class="btn-next" onclick="getNewStreet()">RUE SUIVANTE</button>
             <button id="btn-reveal" class="btn-reveal" onclick="revealOnMap()">VOIR SUR LA CARTE</button>
         </div>
     </div>
+
     <div id="map"></div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-    // ON DÉFINIT LES FONCTIONS D'ABORD POUR QU'ELLES SOIENT PRÊTES
     var streetsData = [];
     var currentFiltered = [];
     var currentStreet = null;
     var map, marker;
 
     function init() {
+        // Position initiale centrée sur le centre-ville
         map = L.map('map').setView([45.3057, -73.2534], 13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-        marker = L.marker([0,0]).addTo(map);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        marker = L.marker([0, 0]).addTo(map);
         marker.setOpacity(0);
 
-        // LE TRUC : On ajoute ?v=123 pour forcer le rafraîchissement du fichier
-        fetch('donnees_rues.json?v=' + Date.now())
-            .then(res => {
-                if (!res.ok) throw new Error("Fichier introuvable");
-                return res.json();
-            })
+        // Force le rafraîchissement du JSON pour éviter le cache
+        fetch('donnees_rues.json?t=' + Date.now())
+            .then(res => res.json())
             .then(data => {
                 streetsData = data;
                 currentFiltered = data;
-                document.getElementById('street-display').innerText = data.length + " rues prêtes";
-                document.getElementById('sector-indicator').innerText = "Appuyez sur Suivante";
+                document.getElementById('street-display').innerText = data.length + " rues chargées";
+                document.getElementById('sector-indicator').innerText = "Prêt pour l'étude";
             })
             .catch(err => {
-                document.getElementById('street-display').innerText = "Erreur de chargement JSON";
+                document.getElementById('street-display').innerText = "Fichier JSON manquant";
                 console.error(err);
             });
     }
 
-    // FONCTION GLOBALE POUR LES BOUTONS
+    // Gestion du changement de secteur
     window.changeSecteur = function(secteur, btn) {
         document.querySelectorAll('.btn-filter').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
@@ -84,38 +102,43 @@
         if (secteur === 'Tous') {
             currentFiltered = streetsData;
         } else {
-            let motCle = secteur.split(' ')[0].toLowerCase();
-            currentFiltered = streetsData.filter(s => 
-                s.secteur && s.secteur.toLowerCase().includes(motCle)
-            );
+            // Filtrage exact sur le nom du secteur défini dans le convertisseur
+            currentFiltered = streetsData.filter(s => s.secteur === secteur);
         }
+        
         window.getNewStreet();
     };
 
+    // Sélection d'une nouvelle rue
     window.getNewStreet = function() {
         if (currentFiltered.length === 0) {
-            document.getElementById('street-display').innerText = "Aucune rue trouvée";
+            document.getElementById('street-display').innerText = "Secteur vide";
             return;
         }
+
         const index = Math.floor(Math.random() * currentFiltered.length);
         currentStreet = currentFiltered[index];
 
         document.getElementById('street-display').innerText = currentStreet.nom;
         document.getElementById('sector-indicator').innerText = currentStreet.secteur;
         document.getElementById('btn-reveal').style.display = 'block';
+        
         marker.setOpacity(0);
+        marker.closePopup();
     };
 
+    // Révélation sur la carte
     window.revealOnMap = function() {
         if (!currentStreet) return;
+
         const coords = [currentStreet.lat, currentStreet.lng];
         marker.setLatLng(coords).setOpacity(1);
         marker.bindPopup("<b>" + currentStreet.nom + "</b>").openPopup();
         map.flyTo(coords, 16);
     };
 
-    // LANCEMENT
     window.onload = init;
 </script>
+
 </body>
 </html>
